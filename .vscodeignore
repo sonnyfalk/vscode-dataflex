@@ -1,0 +1,9 @@
+**
+!out/extension.js
+!package.json
+!package-lock.json
+!language-configuration.json
+!server
+!README.md
+!LICENSE
+!CHANGELOG.md
