@@ -3,7 +3,9 @@
 !package.json
 !package-lock.json
 !language-configuration.json
+!dataflex.tmgrammar.json
 !server
+!node_modules
 !README.md
 !LICENSE
 !CHANGELOG.md

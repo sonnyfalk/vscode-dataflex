@@ -28,6 +28,13 @@
         ],
         "configuration": "./language-configuration.json"
       }
+    ],
+    "grammars": [
+      {
+        "language": "dataflex",
+        "scopeName": "source.dataflex",
+        "path": "dataflex.tmgrammar.json"
+      }
     ]
   },
   "scripts": {

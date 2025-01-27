@@ -1,0 +1,64 @@
+{
+  "scopeName": "source.dataflex",
+  "patterns": [
+    { "include": "#keywords" },
+    { "include": "#strings" },
+    { "include": "#numbers" },
+    { "include": "#comments" }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.structure.dataflex",
+          "match": "(?i)\\b(Object|End_Object|Cd_End_Object|Class|End_Class|Function|End_Function|Procedure|End_Procedure|Use|Deferred_View)\\b"
+        },
+        {
+          "name": "keyword.control.commands.dataflex",
+          "match": "(?i)\\b(Set|Get|Send|If|For|While|Repeat|Loop|To|Of)\\b"
+        },
+        {
+          "name": "keyword.control.preposition.dataflex",
+          "match": "(?i)\\b(To|Of)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.dataflex",
+          "match": "\".*\""
+        },
+        {
+          "name": "string.quoted.single.dataflex",
+          "match": "'.*'"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.decimal.dataflex",
+          "match": "[0-9]+(\\.[0-9]+)?"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.dataflex",
+          "match": "(//).*$"
+        },
+        {
+          "name": "comment.block.dataflex",
+          "match": "/\\*\\*/"
+        },
+        {
+          "name": "comment.block.dataflex",
+          "begin": "/\\*(?!\\*)",
+          "end": "\\*/"
+        }
+      ]
+    }
+  }
+}
