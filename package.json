@@ -33,7 +33,7 @@
       {
         "language": "dataflex",
         "scopeName": "source.dataflex",
-        "path": "dataflex.tmgrammar.json"
+        "path": "./syntaxes/dataflex.tmgrammar.json"
       }
     ],
     "configurationDefaults": {
