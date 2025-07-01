@@ -34,12 +34,22 @@
     "strings": {
       "patterns": [
         {
+          "name": "string.triplequoted.multline.dataflex",
+          "begin": "\"\"\"",
+          "end": "\"\"\""
+        },
+        {
           "name": "string.quoted.double.dataflex",
           "match": "\".*\""
         },
         {
           "name": "string.quoted.single.dataflex",
           "match": "'.*'"
+        },
+        {
+          "name": "string.quoted.multline.dataflex",
+          "begin": "@\"",
+          "end": "\""
         }
       ]
     },
