@@ -34,9 +34,14 @@
     "strings": {
       "patterns": [
         {
-          "name": "string.triplequoted.multline.dataflex",
+          "name": "string.quoted.triple.dataflex",
           "begin": "\"\"\"",
           "end": "\"\"\""
+        },
+        {
+          "name": "string.quoted.multiline.dataflex",
+          "begin": "@\"",
+          "end": "\""
         },
         {
           "name": "string.quoted.double.dataflex",
@@ -45,11 +50,6 @@
         {
           "name": "string.quoted.single.dataflex",
           "match": "'.*'"
-        },
-        {
-          "name": "string.quoted.multline.dataflex",
-          "begin": "@\"",
-          "end": "\""
         }
       ]
     },
