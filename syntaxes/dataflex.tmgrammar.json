@@ -45,11 +45,11 @@
         },
         {
           "name": "string.quoted.double.dataflex",
-          "match": "\".*\""
+          "match": "\"[^\"]*\""
         },
         {
           "name": "string.quoted.single.dataflex",
-          "match": "'.*'"
+          "match": "'[^']*'"
         }
       ]
     },
