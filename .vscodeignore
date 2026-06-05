@@ -5,6 +5,7 @@
 !language-configuration.json
 !dataflex.tmgrammar.json
 !server
+!syntaxes
 !node_modules
 !README.md
 !LICENSE
