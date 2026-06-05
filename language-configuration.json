@@ -28,14 +28,13 @@
     ["\"", "\""],
     ["'", "'"]
   ],
-
   "indentationRules": {
     "increaseIndentPattern": {
-      "pattern": "^\\s*(Object|Class|Procedure|Function).*$",
+      "pattern": "^\\s*((Object|Class|Composite|Procedure|Function|Struct|Enum_List|For|While|Repeat|Case Begin).*$)|(.*Begin$)",
       "flags": "i"
     },
     "decreaseIndentPattern": {
-      "pattern": "^\\s*(End_Object|Cd_End_Object|End_Class|End_Procedure|End_Function).*$",
+      "pattern": "^\\s*(End_Object|Cd_End_Object|End_Class|End_Composite|End_Procedure|End_Function|End_Struct|End_Enum_List|End|Loop|Until|Case End).*$",
       "flags": "i"
     }
   }
