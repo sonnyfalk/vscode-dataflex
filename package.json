@@ -3,6 +3,13 @@
   "displayName": "DataFlex Language Server",
   "description": "DataFlex language server extension",
   "version": "0.8.1",
+  "author": {
+    "name": "Sonny Falk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonnyfalk/dataflex-lsp"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
