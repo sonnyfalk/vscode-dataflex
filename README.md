@@ -1,7 +1,7 @@
 # DataFlex Language Server README
 Language server for the DataFlex programming language.
 
-See [dataflex-lsp GitHub repo](https://github.com/sonnyfalk/dataflex-lsp/) for more details.
+See [dataflex-lsp GitHub repo](https://github.com/sonnyfalk/dataflex-lsp/) for more details and how to install.
 
 ## Features
 - Syntax highlighting with distinct colors for properties, methods, classes, constants etc.
