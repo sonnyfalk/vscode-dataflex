@@ -45,6 +45,21 @@
         "path": "./syntaxes/dataflex.tmgrammar.json"
       }
     ],
+    "configuration": {
+      "title": "DataFlex Language Server",
+      "properties": {
+        "dataflex-lsp.logLevel": {
+          "enum": [
+            "Info",
+            "Trace"
+          ],
+          "default": "Info",
+          "description": "LSP server log level",
+          "scope": "window",
+          "ignoreSync": true
+        }
+      }
+    },
     "configurationDefaults": {
       "[dataflex]": {
         "editor.wordBasedSuggestions": "off"
