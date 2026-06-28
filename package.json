@@ -2,7 +2,7 @@
   "name": "vscode-dataflex",
   "displayName": "DataFlex Language Server",
   "description": "DataFlex language server extension",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "author": {
     "name": "Sonny Falk"
   },
