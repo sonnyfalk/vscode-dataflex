@@ -20,7 +20,6 @@ See [dataflex-lsp GitHub repo](https://github.com/sonnyfalk/dataflex-lsp/) for m
 
 - Fuzzy matching for workspace symbols not implemented yet, only strict case-sensitive prefix matching.
 - Non-package manager style libraries not indexed yet. Only indexing workspace folder, including package manager-style libraries in DfPkg.
-- Goto definition and code completion for variable and parameter types not implemented yet.
 - Non-editor file changes, e.g. `git pull` not re-indexed automatically yet.
 
 ## Release Notes

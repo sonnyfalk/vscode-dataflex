@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.8.3
+#### New
+- Code completion for overriding method after `Procedure` or `Function`.
+- Now reporting indexing progress when opening a workspace.
+- Goto definition and code completion for parameter types, variable, and property declarations.
+- Goto definition and hover support for `table` references
+
+#### Fixed
+- Fixed a bug where global procedures and functions didn't parse out correctly, missing the first parameter type.
 
 ## 0.8.2
 #### New
