@@ -1,5 +1,15 @@
 # Change Log
 
+## 0.8.4
+#### New
+- Support for re-indexing externally modified files, e.g. from `git pull`.
+- Updating the index from renamed, deleted, and newly created files.
+- Support for indexing package references and non-package manager style libraries
+
+#### Fixed
+- Fixed a problem with code completion and goto definition for `Deferred_View`.
+- Fixed a problem with saving the index when the `IdeSrc` folder is missing.
+
 ## 0.8.3
 #### New
 - Code completion for overriding method after `Procedure` or `Function`.
