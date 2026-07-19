@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.8.5
+#### New
+- Support for methods and properties with embedded dot, e.g. `Procedure Private.Find_Records`. This includes indexing, syntax highlighting, goto definition, and code completion.
+
+#### Fixed
+- Fixed a problem with parsing/indexing classes with incorrectly terminated `For` loop, by relaxing the rules to allow for `End` in addition to `Loop`.
+- Fixed a problem with parsing `Get` statement result/destination variable, not properly handling array / struct member access.
+- Fixed minor parsing issues with negative number literals, `Define` declarations using icode arguments, metadata tags using `+=`, `#ifdef` directives, unary `&`, etc.
+
 ## 0.8.4
 #### New
 - Support for re-indexing externally modified files, e.g. from `git pull`.
