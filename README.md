@@ -20,6 +20,5 @@ See [dataflex-lsp GitHub repo](https://github.com/sonnyfalk/dataflex-lsp/) for m
 
 - Fuzzy matching for workspace symbols not implemented yet, only strict case-sensitive prefix matching.
 - Functions defined via `External_Function` and `Register_Function` not yet listed in code completion or goto definition.
-- Packages not yet automatically fetched/updated when opening the workspace, workaround by compiling the project or running `df-cli`.
 
 ## Release Notes

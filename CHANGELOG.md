@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.8.6
+#### New
+- Now runs `df-cli config` to fetch package dependencies when opening workspace. It searches for df-cli in the path, followed by installed DataFlex versions. On macOS it currently only looks in the path.
+- Fetches project specific makepath and toolchain if `df-cli` supports `--json` output flag.
+- Code completion ranking, sorting the code completion list with the following order:
+    - Prioritizing local variables and relevant enum values matching associated `EnumList` meta tag.
+    - Prioritizing likely commands based on context, Get, Set, Send, Move etc.
+    - Prioritizing object references with local objects in the same file first, then other top level objects, followed by all other objects.
+
 ## 0.8.5
 #### New
 - Support for methods and properties with embedded dot, e.g. `Procedure Private.Find_Records`. This includes indexing, syntax highlighting, goto definition, and code completion.
