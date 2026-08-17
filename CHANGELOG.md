@@ -1,5 +1,16 @@
 # Change Log
 
+## 0.8.7
+
+#### Fixed
+- Fixed an issue with occasional hangs due to deadlock accessing the index. Often seen as non-responsive code completion etc.
+- Fixed an issue with auto-close scope initiated on last line of file.
+- Fixed a parsing issue with metadata tags between struct members. - Contributed by @MuhsinIniteamBE (https://github.com/sonnyfalk/tree-sitter-dataflex/pull/1)
+- Index files with uppercase or mixed-case extensions. - Contributed by @MuhsinIniteamBE (https://github.com/sonnyfalk/dataflex-lsp/pull/4)
+- Match workspace symbol queries case-insensitively. - Contributed by @MuhsinIniteamBE (https://github.com/sonnyfalk/dataflex-lsp/pull/6)
+- Match the .sws workspace file extension case-insensitively, and accept object based json project entries. Contributed by @MuhsinIniteamBE (https://github.com/sonnyfalk/dataflex-lsp/pull/5)
+- Fixed an issue with syntax highlighting after Danish letters are used. (https://github.com/sonnyfalk/dataflex-lsp/issues/7)
+
 ## 0.8.6
 #### New
 - Now runs `df-cli config` to fetch package dependencies when opening workspace. It searches for df-cli in the path, followed by installed DataFlex versions. On macOS it currently only looks in the path.
