@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.8.8
+
+#### Fixed
+- Fixed an issue when opening a folder with no .sws file, which would incorrectly index everything from the parent folder.
+
 ## 0.8.7
 
 #### Fixed
