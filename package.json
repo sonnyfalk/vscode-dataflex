@@ -57,6 +57,21 @@
           "description": "LSP server log level",
           "scope": "window",
           "ignoreSync": true
+        },
+        "dataflex-lsp.fetchPackageDependencies": {
+          "enum": [
+            "Auto",
+            "Always",
+            "Never"
+          ],
+          "enumDescriptions": [
+            "Fetch package dependencies for workspaces with DataFlex version >= 26",
+            "Always fetch package dependencies when opening workspace folder",
+            "Never fetch package dependencies when opening workspace folder"
+          ],
+          "default": "Auto",
+          "description": "Fetch package dependencies using `df-cli config` when opening workspace",
+          "scope": "window"
         }
       }
     },
